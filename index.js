@@ -23,7 +23,7 @@ function gamestart() {
     updateScore(0);
 
     // 每3毫秒重製畫布
-    gameInterval = setInterval(gameRoutine,300);
+    gameInterval = setInterval(gameRoutine,100);
 }
 
 function updateScore(newScore) {
